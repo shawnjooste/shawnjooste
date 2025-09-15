@@ -3,7 +3,6 @@ import {
   NewspaperIcon, 
   AcademicCapIcon, 
   CurrencyDollarIcon,
-  ChartBarIcon,
   ArrowUpIcon,
   ArrowDownIcon
 } from '@heroicons/react/24/outline'
@@ -49,7 +48,7 @@ const recentActivity = [
   {
     id: 2,
     type: 'course',
-    title: 'Sarah completed "Advanced React Patterns"',
+    title: 'Sarah completed &ldquo;Advanced React Patterns&rdquo;',
     time: '15 minutes ago',
   },
   {
@@ -61,7 +60,7 @@ const recentActivity = [
   {
     id: 4,
     type: 'community',
-    title: 'New post in "General Discussion"',
+    title: 'New post in &ldquo;General Discussion&rdquo;',
     time: '2 hours ago',
   },
 ]
@@ -72,7 +71,7 @@ export default function Dashboard() {
       <div>
         <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
         <p className="mt-1 text-sm text-gray-500">
-          Welcome back! Here's what's happening with your platform today.
+          Welcome back! Here&apos;s what&apos;s happening with your platform today.
         </p>
       </div>
 

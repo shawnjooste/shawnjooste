@@ -1,10 +1,8 @@
 'use client'
 
-import { useState } from 'react'
-import { Bars3Icon, BellIcon, UserCircleIcon } from '@heroicons/react/24/outline'
+import { BellIcon, UserCircleIcon } from '@heroicons/react/24/outline'
 
 export default function Navbar() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <nav className="bg-white shadow-sm border-b border-gray-200">

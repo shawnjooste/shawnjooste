@@ -4,15 +4,11 @@ import {
   FunnelIcon,
   EnvelopeIcon,
   PhoneIcon,
-  MapPinIcon,
-  CalendarIcon,
-  TagIcon,
   EyeIcon,
   PencilIcon,
   TrashIcon,
   UserGroupIcon,
-  CurrencyDollarIcon,
-  ChartBarIcon
+  CurrencyDollarIcon
 } from '@heroicons/react/24/outline'
 
 const crmStats = [

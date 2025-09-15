@@ -4,12 +4,9 @@ import {
   ClockIcon, 
   UserIcon,
   CurrencyDollarIcon,
-  CheckCircleIcon,
-  XCircleIcon,
   PencilIcon,
   EyeIcon,
-  VideoCameraIcon,
-  MapPinIcon
+  VideoCameraIcon
 } from '@heroicons/react/24/outline'
 
 const consultingStats = [
@@ -253,7 +250,7 @@ export default function Consulting() {
                       ${session.rate}
                     </div>
                   </div>
-                  <p className="text-xs text-gray-500 italic">"{session.feedback}"</p>
+                  <p className="text-xs text-gray-500 italic">&ldquo;{session.feedback}&rdquo;</p>
                 </div>
               ))}
             </div>
