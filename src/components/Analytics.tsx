@@ -1,7 +1,7 @@
 import { 
   ChartBarIcon,
-  TrendingUpIcon,
-  TrendingDownIcon,
+  ArrowTrendingUpIcon,
+  ArrowTrendingDownIcon,
   EyeIcon,
   UserGroupIcon,
   CurrencyDollarIcon,
@@ -138,9 +138,9 @@ export default function Analytics() {
                 }`}
               >
                 {stat.changeType === 'increase' ? (
-                  <TrendingUpIcon className="h-5 w-5 flex-shrink-0 self-center text-green-500" />
+                  <ArrowTrendingUpIcon className="h-5 w-5 flex-shrink-0 self-center text-green-500" />
                 ) : (
-                  <TrendingDownIcon className="h-5 w-5 flex-shrink-0 self-center text-red-500" />
+                  <ArrowTrendingDownIcon className="h-5 w-5 flex-shrink-0 self-center text-red-500" />
                 )}
                 <span className="sr-only">{stat.changeType === 'increase' ? 'Increased' : 'Decreased'} by</span>
                 {stat.change}
